@@ -7,7 +7,7 @@ import {
 } from '../constants/page'
 import mockData from './data/mock'
 const isMock = true
-
+// comment
 function setPokemons(data) {
   const pokemons = data.results.map(pokemon => {
     let { url } = pokemon
